@@ -3,5 +3,8 @@
 {% block main %}
 <p>Welcome to our brewsite page</p>
 <p> {{ user }} </p>
+<img src="{{ url_for('static', filename = 'images/ColdBeer.jpeg') }}" alt="Cold glass of beer" style="width: 300px; height: auto;">
+<img src="{{ url_for('static', filename = 'images/2ColdBeers.jpeg') }}" alt="Two cold glasses of beer" style="width: 300px; height: auto;">
+<img src="{{ url_for('static', filename = 'images/SingleBeer.jpeg') }}" alt="Single glass of beer" style="width: 300px; height: auto;">
 
 {%endblock main %}
